@@ -1,6 +1,6 @@
-# SauceDemo login smoke tests
+# SauceDemo smoke tests
 
-Smoke tests for the login flow at [SauceDemo](https://www.saucedemo.com/) using Cypress and JavaScript.
+Smoke tests for [SauceDemo](https://www.saucedemo.com/) using Cypress and JavaScript.
 
 ## Requirements
 
@@ -44,6 +44,11 @@ npm run cy:run:headed:chrome
 - Successful login with the public SauceDemo `standard_user` / `secret_sauce` account.
 - Rejection of an incorrect password.
 - Required username and password validation.
+- Display of all six inventory products.
+- Sorting products from lowest to highest price.
+- Opening a product details page.
+- Adding a product to the cart.
+- Removing a product from the cart.
 
 ## Technology choices
 
